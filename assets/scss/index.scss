@@ -1,0 +1,38 @@
+body {
+  padding: 10px;
+}
+
+.node {
+  background: #BADA55;
+  border-radius: 50%;
+  display: inline-block;
+
+  margin: 20px;
+  padding: 10px;
+}
+
+.layer {
+  height: 50px;
+  text-align: center;
+}
+
+.disabled {
+  visibility: hidden;
+}
+
+.moving {
+  border: dashed 1px red;
+}
+
+.removed {
+  background: transparent;
+  border: dotted 1px #BADA55;
+}
+
+.moving {
+  background: #89acda;
+}
+
+.end {
+  background: #da9f3c;
+}
